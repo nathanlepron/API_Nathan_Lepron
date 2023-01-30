@@ -2,8 +2,8 @@
    class Database {
        private $host = "pg-srv-nathan-lepron.postgres.database.azure.com";
        private $db_name = "pg-db-nathan-lepron";
-       private $username = "" . $_ENV['username_postgre'] . "@pg-srv-nathan-lepron";
-       private $password = "".$_ENV['password_postgre']."";
+       private $username = "" . $_ENV['usernamepostgre'] . "@pg-srv-nathan-lepron";
+       private $password = "".$_ENV['passwordpostgre']."";
        public $conn;
 
        public function getConnection() {
